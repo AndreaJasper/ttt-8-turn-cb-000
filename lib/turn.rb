@@ -44,6 +44,6 @@
     counter = 0
       while counter < 9
         counter += 1
-        puts(index)
+        puts "Please enter 1-9"
       end
   end
