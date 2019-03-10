@@ -13,14 +13,14 @@
     input.to_i - 1
   end
 
-#END INPUT_TO_INDEX
+#END REQUEST USER'S MOVE
 
 #START USER MOVE
   def move(board, input, value = "X")
     board[input] = value
   end
 
-#END MOVE
+#END USER MOVE
 
 #START VALID_MOVE
   def valid_move?(board, index)
