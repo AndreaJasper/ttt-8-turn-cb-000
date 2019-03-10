@@ -40,7 +40,7 @@
     end
   end
 
-  def turn(board, input_to_index)
+  def turn(board, input_to_index, move, valid_move?)
     counter = 0
       while turn < 9
         puts(turn)
