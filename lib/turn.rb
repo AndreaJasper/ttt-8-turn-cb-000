@@ -17,13 +17,6 @@
     board[input] = value
   end
 
-def turn(board)
-    input_to_index = 0
-      until input_to_index == 9
-        input_to_index += 1
-        puts(valid_move)
-      end
-
   def valid_move?(board, index)
     def position_taken?(array, user)
       if array[user] == " " || array[user] == "" || array[user] == nil
@@ -48,5 +41,10 @@ def turn(board)
     end
   end
 
-
+  def turn(board)
+      input_to_index = 0
+        until input_to_index == 9
+          input_to_index += 1
+          puts(valid_move)
+        end
   end
