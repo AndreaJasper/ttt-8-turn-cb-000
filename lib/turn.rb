@@ -6,8 +6,6 @@
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
 
-  puts "Please enter 1-9"
-
   def input_to_index(input)
     input.to_i - 1
   end
