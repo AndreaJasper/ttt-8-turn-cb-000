@@ -39,11 +39,11 @@
       return false
     end
   end
-
+  
   def turn(board)
     counter = 0
       while counter < 9
         counter += 1
-        puts(value)
+        puts(index)
       end
   end
