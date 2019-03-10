@@ -7,8 +7,3 @@ puts "Welcome to Tic Tac Toe!"
 puts display_board(board)
 
 turn(board)
-
-input = gets.strip
-input = input_to_index(input)
-
-move(board, input)
