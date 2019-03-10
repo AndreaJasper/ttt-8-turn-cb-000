@@ -49,10 +49,6 @@
 
 #END VALID_MOVE
 
-  def turn(input_to_index, move)
-    counter = 0
-      while turn < 9
-        puts(turn)
-      end
-
+  def turn
+    index = input_to_index
 end
