@@ -6,6 +6,13 @@
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
 
+  def turn(board)
+    counter = 0
+      while counter < 9
+        counter += 1
+        puts "Please enter 1-9"
+      end
+
   def input_to_index(input)
     input.to_i - 1
   end
@@ -40,10 +47,5 @@
     end
   end
 
-  def turn(board)
-    counter = 0
-      while counter < 9
-        counter += 1
-        puts "Please enter 1-9"
-      end
+  
   end
