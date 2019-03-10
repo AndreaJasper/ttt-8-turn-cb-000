@@ -49,6 +49,6 @@
 
 #END VALID_MOVE
 
-  def turn
+  def turn (board, index)
     index = input_to_index
 end
