@@ -1,3 +1,4 @@
+# START OF BOARD
   def display_board(board)
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
     puts "-----------"
@@ -5,17 +6,23 @@
     puts "-----------"
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
+#END BOARD
 
-
+#START INPUT_TO_INDEX
   def input_to_index(input)
     input.to_i - 1
   end
 
+#END INPUT_TO_INDEX
 
+#START MOVE
   def move(board, input, value = "X")
     board[input] = value
   end
 
+#END MOVE
+
+#START VALID_MOVE
   def valid_move?(board, index)
     def position_taken?(array, user)
       if array[user] == " " || array[user] == "" || array[user] == nil
@@ -40,7 +47,9 @@
     end
   end
 
-  def turn(board, input_to_index, move, valid_move?)
+#END VALID_MOVE
+
+  def turn(board, input_to_index)
     counter = 0
       while turn < 9
         puts(turn)
