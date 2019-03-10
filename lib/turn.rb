@@ -52,7 +52,7 @@ end
 #asks user for a number, check if valid, if not, recursively continues to ask for a number
 def turn (board)
   puts "Please enter 1-9:"
-  num = gets.chomp
+  index = gets.chomp
   index = input_to_index(num)
   if valid_move?(board, index) == true
     move(board, index)
