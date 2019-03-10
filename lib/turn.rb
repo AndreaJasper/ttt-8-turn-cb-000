@@ -40,7 +40,10 @@
     end
   end
 
-  def turn(board)
-    puts "Please enter 1-9"
+  def turn(input_to_index, valid_move)
+    counter = 0
+      while counter < 9
+        puts(move)
+
 
 end
