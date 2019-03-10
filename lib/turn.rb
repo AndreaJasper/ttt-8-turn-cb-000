@@ -1,4 +1,3 @@
-def turn(board)
   def display_board(board)
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
     puts "-----------"
@@ -40,10 +39,10 @@ def turn(board)
       return false
     end
   end
-
-  counter = 0
-    while counter < 9
-      counter += 1
-      puts(value)
-    end
-end
+  def turn(board)
+    counter = 0
+      while counter < 9
+        counter += 1
+        puts(value)
+      end
+  end
