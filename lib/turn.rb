@@ -44,6 +44,6 @@
     counter = 0
       while turn < 9
         puts(turn)
-
+      end
 
 end
