@@ -39,6 +39,7 @@
       return false
     end
   end
+
   def turn(board)
     counter = 0
       while counter < 9
