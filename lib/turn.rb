@@ -8,7 +8,7 @@
   end
 #END BOARD
 
-#START INPUT_TO_INDEX
+#START REQUEST USER'S MOVE
   def input_to_index(input)
     input.to_i - 1
   end
