@@ -7,9 +7,9 @@
   end
 
   def turn(board)
-    input = 0
-      while input < 9
-        input += 1
+    input_to_index = 0
+      while input_to_index < 9
+        input_to_index += 1
         puts "Please enter 1-9"
       end
 
