@@ -42,8 +42,8 @@
 
   def turn(input_to_index, valid_move)
     counter = 0
-      while counter < 9
-        puts(move)
+      while turn < 9
+        puts(turn)
 
 
 end
