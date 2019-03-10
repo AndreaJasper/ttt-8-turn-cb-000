@@ -15,7 +15,7 @@
 
 #END INPUT_TO_INDEX
 
-#START MOVE
+#START USER MOVE
   def move(board, input, value = "X")
     board[input] = value
   end
@@ -49,7 +49,7 @@
 
 #END VALID_MOVE
 
-  def turn(board, input_to_index)
+  def turn(input_to_index, move)
     counter = 0
       while turn < 9
         puts(turn)
