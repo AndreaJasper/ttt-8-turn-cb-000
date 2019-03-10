@@ -1,4 +1,8 @@
 # START OF BOARD
+def turn (board, index)
+
+
+
   def display_board(board)
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
     puts "-----------"
@@ -49,6 +53,4 @@
 
 #END VALID_MOVE
 
-  def turn (board, index)
-    index = input_to_index
 end
