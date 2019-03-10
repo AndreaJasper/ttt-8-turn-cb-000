@@ -51,3 +51,5 @@ end
 
 #asks user for a number, check if valid, if not, recursively continues to ask for a number
 def turn(board)
+  puts "Please enter 1-9"
+  
