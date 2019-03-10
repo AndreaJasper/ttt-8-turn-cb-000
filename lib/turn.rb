@@ -1,4 +1,4 @@
-# START OF BOARD
+# displays tic tac toe board
 def turn (board, index)
 
 
@@ -10,23 +10,16 @@ def turn (board, index)
     puts "-----------"
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
-#END BOARD
 
-#START REQUEST USER'S MOVE
+
+#coverts a user's place on the board to the index integer
   def input_to_index(input)
     input.to_i - 1
   end
 
-#END REQUEST USER'S MOVE
 
-#START USER MOVE
-  def move(board, input, value = "X")
-    board[input] = value
-  end
+# checks the number to see if the position is already taken and if it's an actual number
 
-#END USER MOVE
-
-#START VALID_MOVE
   def valid_move?(board, index)
     def position_taken?(array, user)
       if array[user] == " " || array[user] == "" || array[user] == nil
@@ -51,6 +44,10 @@ def turn (board, index)
     end
   end
 
-#END VALID_MOVE
-
+#takes a users num and the board and placed the X or O char in the position_taken
+def move(board, input, value = "X")
+  board[input] = value
 end
+
+#asks user for a number, check if valid, if not, recursively continues to ask for a number
+def turn(board)
