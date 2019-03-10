@@ -6,12 +6,7 @@
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
 
-  def turn(board)
-    input_to_index = 0
-      until input_to_index < 9
-        input_to_index += 1
-        puts(valid_move)
-      end
+
 
   def input_to_index(input)
     input.to_i - 1
@@ -22,6 +17,12 @@
     board[input] = value
   end
 
+def turn(board)
+    input_to_index = 0
+      until input_to_index == 9
+        input_to_index += 1
+        puts(valid_move)
+      end
 
   def valid_move?(board, index)
     def position_taken?(array, user)
