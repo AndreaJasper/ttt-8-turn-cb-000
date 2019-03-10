@@ -43,9 +43,4 @@
 
   def turn(board)
     puts "Please enter 1-9"
-      input_to_index = 0
-        until input_to_index == 9
-          input_to_index += 1
-          puts(valid_move)
-        end
   end
